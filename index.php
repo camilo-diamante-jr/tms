@@ -1,6 +1,6 @@
 <?php
 
-define("EXTENSIONS", ".php");
+define('EXTENSIONS', ".php");
 
 function views($paths)
 {

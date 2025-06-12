@@ -1,1 +1,1 @@
-Database connection error: SQLSTATE[HY000] [1049] Unknown database 'taskb'
+Database connection error:SQLSTATE[HY000] [1049] Unknown database 'taskdb'       

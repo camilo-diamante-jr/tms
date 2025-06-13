@@ -6,3 +6,8 @@ define('DB_NAME', 'taskdb');
 define('DB_USER', "root");
 define('DB_PASS', "");
 define('DB_CHARSET', 'utf8mb4');
+
+
+
+
+define('styles',  "/css/styles.css");

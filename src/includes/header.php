@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+include '../src/config/db.php';
 ?>
 
 
@@ -10,7 +10,9 @@ include 'db.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Management</title>
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="<?= styles ?>" />
+    <script src="/js/jquery-3.7.1.min.js"></script>
+
 </head>
 
 <body>

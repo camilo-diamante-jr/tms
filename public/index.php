@@ -11,6 +11,6 @@ function views($paths)
 }
 
 
-$paths = ['includes/header', 'views/task', 'includes/footer'];
+$paths = ['../src/includes/header', '../src/views/task', '../src/includes/footer'];
 
 views($paths);

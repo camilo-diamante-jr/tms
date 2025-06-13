@@ -4,7 +4,7 @@
             <div class="d-flex align-items-center justify-content-between">
                 <h5 class="card-title">Employees Task Management</h5>
                 <div class="buttons">
-                    <button type="button" class="btn btn-success rounded-0 btn-sm">Assign new task</button>
+                    <button type="button" id="assign-task-btn" class="btn btn-success rounded-0 btn-sm">Assign new task</button>
                 </div>
             </div>
         </header>
@@ -53,3 +53,27 @@
         </div>
     </section>
 </main>
+
+<script>
+    $(document).ready(function() {
+        $(document).on("click", "#assign-task-btn", showToastify);
+    });
+
+
+    function showToastify() {
+        Toastify({
+            text: "This is a toast",
+            duration: 3000,
+            destination: "https://github.com/apvarun/toastify-js",
+            newWindow: true,
+            close: true,
+            gravity: "top", // `top` or `bottom`
+            position: "left", // `left`, `center` or `right`
+            stopOnFocus: true, // Prevents dismissing of toast on hover
+            style: {
+                background: "linear-gradient(to right, #00b09b, #96c93d)",
+            },
+            onClick: function() {} // Callback after click
+        }).showToast();
+    }
+</script>

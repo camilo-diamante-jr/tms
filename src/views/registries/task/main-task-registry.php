@@ -10,7 +10,7 @@
         </header>
         <div class="card-body">
             <div class="table-responsive">
-                <table class="table table-striped align-middle">
+                <table id="myTaskTable" class="table table-striped align-middle">
                     <thead>
                         <tr>
                             <th>Employee ID</th>

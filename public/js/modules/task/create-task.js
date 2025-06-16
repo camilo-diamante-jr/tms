@@ -1,13 +1,26 @@
-export function createTask() {
-  successMsg();
+export function initializeTaskAssignemnt() {
+  $(document).on("click", "#assignTaskBtn", taskDesignation);
+}
+
+function taskDesignation() {
+  $("#assignTaskModal").modal("show");
+
+  $("#assignTaskSubmitForm").on("submit", function (e) {
+    e.preventDefault();
+    insertTask();
+  });
+}
+
+function insertTask() {
+  
 }
 
 function successMsg() {
   Toastify({
     text: "New task assigned succ",
-    className: "info",
+    className: "rounded-5",
     style: {
-      background: "linear-gradient(to right, #00b09b, #96c93d)",
+      background: "linear-gradient(to right,rgb(9, 176, 0), #96c93d)",
     },
   }).showToast();
 }

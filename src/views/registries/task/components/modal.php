@@ -26,7 +26,9 @@
                         aria-label="Close"></button>
                 </header>
                 <section class="modal-body">
-                    <input type="text" class="form-control" name="employeeName" />
+                    <select class="form-select" id="employeeList">
+                        <option value="" selected>select employee name</option>
+                    </select>
                 </section>
                 <footer class="modal-footer">
                     <button type="submit" class="btn btn-primary">Save</button>

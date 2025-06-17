@@ -10,4 +10,4 @@ define('DB_CHARSET', 'utf8mb4');
 
 
 
-define('styles',  "/css/styles.css");
+define('styles',  "/assets/personalize/css/styles.css");

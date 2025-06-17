@@ -1,5 +1,5 @@
 <?php
-include '../src/config/db.php';
+include './src/config/db.php';
 ?>
 
 

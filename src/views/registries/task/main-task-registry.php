@@ -25,7 +25,7 @@
                         <tr>
                             <td>2245</td>
                             <td>
-                                <div class="d-flex align-items-center gap-3">
+                                <div class="d-flex assssslign-items-center gap-3">
                                     <img src="/uploads/avatar-1.jpg" alt="avatar" class="img-fluid avatar-tbl">
                                     <div>
                                         <p class="fw-bold" style="margin-bottom: -6px;">Jonhn Smith</p>

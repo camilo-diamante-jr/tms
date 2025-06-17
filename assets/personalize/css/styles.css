@@ -1,0 +1,8 @@
+@import url(../../bootstrap/css/bootstrap.min.css);
+@import url(https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css);
+
+.avatar-tbl {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}

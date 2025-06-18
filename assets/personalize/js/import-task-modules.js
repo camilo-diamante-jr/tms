@@ -1,3 +1,3 @@
-import { initializeTaskAssignemnt } from "./modules/task/create-task.js";
+import { initializeTaskAssignment } from "./modules/task/create-task.js";
 
-initializeTaskAssignemnt();
+initializeTaskAssignment();

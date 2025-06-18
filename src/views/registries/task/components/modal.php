@@ -26,9 +26,18 @@
                         aria-label="Close"></button>
                 </header>
                 <section class="modal-body">
-                    <select class="form-select" id="employeeList">
-                        <option value="" selected>select employee name</option>
-                    </select>
+                    <p class="form-group mb-2">
+                        <input type="text" class="form-control" name="employeeListInput" id="employeeListInput" placeholder="Enter employee name" />
+                    </p>
+
+                    <p class="form-group mb-2">
+
+                    </p>
+
+
+                    <ul class="list-group d-none" id="employeeList">
+                        <!-- Employee list will show via ajax -->
+                    </ul>
                 </section>
                 <footer class="modal-footer">
                     <button type="submit" class="btn btn-primary">Save</button>
